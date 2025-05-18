@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d4edda;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header / Bar */
+#bar {
+  text-align: center;
+  background-color: #add8e6;
+  color: #111;
+  padding: 15px 10px;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #8ecae6;
+}
+
+/* Navigation Menu */
+#main-nav {
+  background-color: #add8e6;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#main-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 0 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#main-nav li:hover {
+  background-color: #f8f9fa;
+  color: #0077b6;
+  border-radius: 6px;
+}
+
+/* Dog Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  margin-top: 10px;
+  
+}
+
+
+
+/* Place each container in a different corner */
+/* Dog containers */
+#dogContainer, #dogContainer1, #dogContainer2, #dogContainer3 {
+  width: 200px;
+  background-color: #ffffffc7;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  position: absolute; 
+}
+
+
+
+/* Top-left corner */
+#dogContainer {
+  top: 80px; /* Distance from the top */
+  left: 20px; /* Distance from the left */
+
+}
+
+
+/* Top-right corner */
+#dogContainer1 {
+  top: 80px; /* Distance from the top */
+  right: 20px; /* Distance from the right */
+}
+
+/* Bottom-left corner */
+#dogContainer2 {
+  bottom: 80px; /* Distance from the bottom */
+  left: 20px; /* Distance from the left */
+}
+
+/* Bottom-right corner */
+#dogContainer3 {
+  bottom: 80px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+}
+
+#site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 14%;
+}
+
+#site-footer a {
+  color: #90cdf4;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+#site-footer a:hover {
+  text-decoration: underline;
+}
+ #fact {
+      background-color: #ffffff;
+      padding: 5px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: auto;
+      font-size: 1.2em;
+      text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.center-container {
+  display: flex;
+  justify-content: center;  
+  gap: 40px;                
+  flex-wrap: wrap;          
+  margin-top: 40px;
+}
+
+/* Mission Box */
+.mission-box {
+  background-color: #fefefe;
+  border: 2px solid #add8e6;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  flex: 1 1 300px;
+}
+
+/* Website Box */
+.website-box {
+  background-color: #fefefe;
+  border: 2px solid #add8e6;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  flex: 1 1 300px;
+}
+
+.website-box ul {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.website-box h2 {
+  text-align: center;
+}
+.dog-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.dog-row div {
+  flex: 1;
+  text-align: center;
+}
+
+.dog-row img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
